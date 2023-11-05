@@ -7,7 +7,7 @@ import { selectTotalQTY, setOpenCart } from '../app/CartSlice'
 
 
 const Navbar = () => {
-    const [navState, setNavState] = useState (false)
+    const [navState, setNavState] = useState(false)
     const dispatch = useDispatch()
     const totalQTY = useSelector(selectTotalQTY)
 
